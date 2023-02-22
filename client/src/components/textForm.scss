@@ -1,0 +1,29 @@
+@import '~bootstrap/scss/bootstrap.scss';
+
+
+.textInput{
+    display : inline-block;
+    width: 70%;
+}
+
+.freq-Header .freq-words{
+    // position: fixed;
+    bottom: 10px;
+    margin: auto;
+    left: 0px;
+    right: 0px;
+    width: 5%;
+    border: 3px solid green;
+    padding: 10px;
+}
+
+.freq-words {
+    max-height: 300px;
+    margin-bottom: 10px;
+    overflow: scroll;
+    -webkit-overflow-scrolling: touch;
+}
+
+.words{
+    width: 20%;
+}
